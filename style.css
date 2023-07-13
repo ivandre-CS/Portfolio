@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1563430363828-8368ec782d91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2019&q=80);
+    background-size: cover;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #sobre, #project, #contact {
+    cursor: pointer;
+  }
+  
+  nav ul {
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav li {
+    background-color: #33333344;
+    border-radius: 20px;
+    display: inline;
+    margin-left: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    }
+  
+  section {
+    margin: 50px 0;
+    padding: 20px;
+  }
+#contato {
+  margin-left: 70%;
+}
+#tec{
+  margin-left: 45%;
+}
+#tec li {
+  padding-bottom: 15px;
+}
+ #contato a {
+  text-decoration: none;
+}
+
+  #git, #folder, #linkedin, #mail, #map, #wats{
+
+    width: 20px;
+    height: 20px;
+    padding-right: 0.9rem;
+}
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    padding: 24px;
+    border-radius: 6px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 500px;
+}
+.modal img {
+    
+    width: 145px;
+    height: 145px;;
+    border-radius: 12%;
+}
+.title-overlay {
+    color: black;
+    text-align: center;
+    
+
+}
+.subtitle-overlay {
+    text-align: center;
+    color: black;
+
+}
+.p-overlay {
+    color: black;
+}
+  .modal-overlay {
+    position: fixed;
+    background: rgb(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+  }
+
+  .modal--open {
+    display: block;
+    width: 35%;
+    height: 75%;
+    border-radius: 12px;
+    background-color: #d3d3d3 
+
+
+
+  }
+  .modal-overlay--show {
+    display: block;
+  }
